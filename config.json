@@ -1,0 +1,26 @@
+{
+    "pageTitle": "A sample portfolio",
+    "githubUrl": "https://github.com/willj",
+    "introText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>",
+    "projects": [
+        {
+            "title": "A project title",
+            "url": "https://www.google.com",
+            "buttonText": "View site",
+            "image": "https://placeholdit.imgix.net/~text?txtsize=33&w=528&h=326&txt=528wide",
+            "desc": "<p>A test project description.</p> <p>We'll probably want some more text here.</p>"
+        },
+        {
+            "title": "Second Project",
+            "image": "https://placeholdit.imgix.net/~text?txtsize=33&w=528&h=326&txt=528wide",
+            "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+        },
+        {
+            "title": "Third Project",
+            "url": "https://www.google.com",
+            "buttonText": "Play Game",
+            "image": "https://placeholdit.imgix.net/~text?txtsize=33&w=528&h=400&txt=528wide",
+            "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua <a href=\"https://github.com\">a link</a>.</p> <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+        }
+    ]
+}

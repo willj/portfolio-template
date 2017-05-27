@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    color: #333333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.3em;
+}
+
+div, header, section, main {
+    display: block;
+    position: relative;
+}
+
+a {
+    color: #06adda;
+}
+
+a:hover {
+    color: #333333;
+}
+
+.page-header {
+    margin: 0 auto;
+    background-color: #06adda;
+}
+
+.page-header__content {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+}
+
+.page-header__title {
+    font-weight: normal;
+    font-size: 1.7em;
+    line-height: 1em;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+.page-header__icon {
+    text-decoration: none;
+    display: block;
+    margin: 26px 20px 0 0;
+    float: right;
+}
+
+.page-header__icon:hover svg{
+    fill: #000000;
+}
+
+.icon-github {
+    width: 32px;
+    height: 32px;
+    fill: #ffffff;
+}
+
+.intro-text{
+    font-size: 1.5em;
+    padding: 20px;
+    font-weight: lighter;
+    color: #333333;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.project {
+    box-sizing: border-box;
+    padding: 30px 10px 20px 10px;
+    background-image: radial-gradient(ellipse at top center, #eeeeee 2px, #ffffff 60%);
+    overflow: auto;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #eeeeee;
+}
+
+.project__title {
+    font-weight: normal;
+    font-size: 1.8em;
+    margin: 0.2em auto 0.5em auto;
+}
+
+.project__desc {
+    box-sizing: border-box;
+    width: 40%;
+    float: left;
+    padding: 0 20px;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+.project__image {
+    box-sizing: border-box;
+    width: 60%;
+    max-width: 100%;
+    float: left;
+}
+
+@media screen and (max-width: 680px) {
+    .project__desc, .project__image {
+        float: none;
+        width: 100%;
+    }
+    
+    .project__desc {
+        padding: 10px 0 0 0;
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 6px 20px;
+    background-color: #06adda;
+    color: #ffffff;
+    border-radius: 2px;
+    border: 1px solid #06adda;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #06adda;
+    transition: 0.3s all ease;
+}

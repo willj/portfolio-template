@@ -2,4 +2,4 @@
 
 https://willj.github.io/portfolio-template/
 
-Edit `config.json` with real content and run `gulp` to publish.
+Add real content to `config.json` and run `gulp` to publish the page to `/docs`.

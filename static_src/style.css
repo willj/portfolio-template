@@ -78,6 +78,7 @@ a:hover {
 .project__title {
     font-weight: normal;
     font-size: 1.8em;
+    line-height: 1.2em;
     margin: 0.2em auto 0.5em auto;
 }
 
